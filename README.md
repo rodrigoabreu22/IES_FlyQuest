@@ -1,5 +1,8 @@
 # ies-24-25-group-project-105
 
+# Grade
+17,2
+
 # FlyQuest
 
 FlyQuest é um software desenvolvido para uma companhia aérea e permite gerenciar os aspetos operacionais relacionados aos voos. Esta app destina-se a administradores e equipas de bordo, facilitando a organização, agendamento e comunicação. Assim, as equipas podem-se manter informadas sobre as alterações efetuadas nos seus voos.
