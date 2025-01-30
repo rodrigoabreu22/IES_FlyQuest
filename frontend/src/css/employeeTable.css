@@ -1,0 +1,141 @@
+.employee-table-container {
+    width: 100%; 
+    max-width: 100%; 
+    overflow: auto; 
+    padding: 0; 
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0; /* Garante que a tabela não adicione margens extras */
+}
+
+.table thead th {
+    background-color: #3C554C;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.table tbody td {
+    font-size: 0.9rem;
+}
+
+.card-body{
+    padding: 0;
+}
+
+
+.table-header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    border-radius: 12px 12px 0 0;
+}
+
+
+.status-indicator {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.status-indicator.bg-success {
+    background-color: #4caf50;
+}
+
+.status-indicator.bg-danger {
+    background-color: #e74c3c;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+
+.table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.role-badge {
+    font-size: 0.85rem;
+    padding: 0.4em 0.8em;
+    border-radius: 10px;
+    color: #333;
+    background-color: #e0e7ff;
+}
+
+.modal-content {
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+    background-color: #3C554C;
+    color: #ffffff;
+    border-radius: 16px 16px 0 0;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.form-select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+.no-margin {
+    margin-top: 0px;
+}
+
+.employees-box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto; 
+    border: 10px solid #3C554C; 
+}
+
+
+.employee-table-wrapper {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.employee-table-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0; 
+    padding: 0;
+    table-layout: auto;
+}
+
+@media (max-width: 768px) {
+    .employees-box {
+        padding: 5px;
+    }
+
+    .employee-table-container {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .table thead th {
+        padding: 3px;
+    }
+
+}

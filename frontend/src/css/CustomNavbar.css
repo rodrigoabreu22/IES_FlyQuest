@@ -1,0 +1,255 @@
+/* Estilo Geral da Navbar */
+.custom-navbar {
+  background-color: #3C554C;
+  padding: 0;
+  max-height: 100px;
+}
+
+/* Botão Toggle */
+.navbar-toggler {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #ffffff;
+  border: none;
+  padding: 5px;
+  width: 40px;
+  height: 35px;
+  z-index: 20;
+}
+
+.navbar-toggler-icon {
+  width: 25px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Logo */
+.brand-logo-container {
+  width: 150px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  transform: scale(4);
+}
+
+/* Links de Navegação */
+.nav-links {
+  gap: 20px;
+}
+
+.button-nav {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.button-nav:hover {
+  color: #3C554C;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+/* Notificações e Perfil */
+.icon-custom {
+  font-size: 35px;
+  color: #fff;
+}
+
+.icon-custom2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-name {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* Badge de Notificação */
+.notification-container {
+  position: relative;
+  display: inline-block;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  font-size: 15px;
+  padding: 3px 6px;
+  border-radius: 50%;
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+/* Botão de Log out */
+.logout-link {
+  width: 150px;
+  height: 45px;
+  font-size: 18px;
+  padding: 0px 25px 2px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #3C554C;
+  font-weight: bold;
+  border: 2px solid #3C554C;
+  transition: all 0.3s ease;
+  margin-bottom: 4%;
+}
+
+.logout-link:hover {
+  color: #ffffff;
+  background-color: #3C554C;
+  border-color: #ffffff;
+}
+
+/* Estilo do Offcanvas */
+.custom-offcanvas {
+  width: 250px; /* Largura do menu lateral */
+  background-color: #3C554C;
+  color: #fff;
+}
+
+.custom-offcanvas .offcanvas-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.custom-offcanvas .button-nav {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0;
+  transition: color 0.3s;
+}
+
+.custom-offcanvas .button-nav:hover {
+  color: #3C554C;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.custom-offcanvas .logout-link {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Responsividade para telas menores que 576px */
+@media (max-width: 576px) {
+
+  .custom-navbar {
+    max-height: 150px; /* Aumenta a altura da Navbar */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .navbar-toggler {
+    top: -10px;
+    right: 20px;
+  }
+
+  .brand-logo-container {
+    width: 120px;
+    height: 50px;
+    transform: scale(1.5);
+  }
+
+  .icon-custom,
+  .icon-custom2 {
+    font-size: 28px;
+  }
+
+  .user-name {
+    font-size: 16px;
+  }
+
+  .button-nav {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+
+  .logout-link {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+
+}
+
+/* Responsividade para telas menores que 990px */
+@media (max-width: 990px) {
+
+  .custom-navbar {
+    max-height: 100px; /* Aumenta a altura da Navbar */
+  }
+
+  .navbar-toggler {
+    display: block;
+    top: 0px;
+    right: 20px;
+  }
+
+  .navbar-collapse {
+    display: none;
+  }
+
+  .custom-offcanvas {
+    display: block;
+  }
+
+  .nav-links-container .button-nav {
+    display: block !important;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .profile-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .logout-link {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+/* Ajuste para esconder o menu colapsado em telas maiores */
+@media (min-width: 990px) {
+  .custom-offcanvas {
+    display: none;
+  }
+
+  .navbar-collapse {
+    display: flex !important;
+  }
+}

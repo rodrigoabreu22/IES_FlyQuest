@@ -1,0 +1,30 @@
+{"cityName": "Lisbon", "date": "2024-11-29T15:07:36.244118", "latitude": 38.7788, "longitude": -9.1320, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Porto", "date": "2024-11-29T15:07:36.244148", "latitude": 41.2479, "longitude": -8.6812, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Barcelona", "date": "2024-11-29T15:07:36.244157", "latitude": 41.2983, "longitude": 2.0800, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Paris", "date": "2024-11-29T15:07:36.244161", "latitude": 49.0079, "longitude": 2.5508, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Berlin", "date": "2024-11-29T15:07:36.244165", "latitude": 52.3650, "longitude": 13.5010, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "London", "date": "2024-11-29T15:07:36.244168", "latitude": 51.4680, "longitude": -0.4551, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Amsterdam", "date": "2024-11-29T15:07:36.244171", "latitude": 52.3169, "longitude": 4.7459, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Madrid", "date": "2024-11-29T15:07:36.244175", "latitude": 40.4895, "longitude": -3.5643, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Rome", "date": "2024-11-29T15:07:36.244178", "latitude": 41.8035, "longitude": 12.2519, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Vienna", "date": "2024-11-29T15:07:36.244182", "latitude": 48.1179, "longitude": 16.5663, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Prague", "date": "2024-11-29T15:07:36.244185", "latitude": 50.1018, "longitude": 14.2632, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "New York", "date": "2024-11-29T15:07:36.244189", "latitude": 40.6446, "longitude": -73.7797, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Tokyo", "date": "2024-11-29T15:07:36.244192", "latitude": 35.5483, "longitude": 139.7780, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Sydney", "date": "2024-11-29T15:07:36.244195", "latitude": 33.9500, "longitude": 151.1817, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "San Francisco", "date": "2024-11-29T15:07:36.244198", "latitude": 37.6191, "longitude": -122.3816, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Los Angeles", "date": "2024-11-29T15:07:36.244201", "latitude": 33.9422, "longitude": -118.4036, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Dubai", "date": "2024-11-29T15:07:36.244204", "latitude": 25.2567, "longitude": 55.3643, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Singapore", "date": "2024-11-29T15:07:36.244208", "latitude": 1.3586, "longitude": 103.9899, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Bangkok", "date": "2024-11-29T15:07:36.244211", "latitude": 13.6819, "longitude": 100.7469, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Hong Kong", "date": "2024-11-29T15:07:36.244214", "latitude": 22.3135, "longitude": 113.9137, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Toronto", "date": "2024-11-29T15:07:36.244220", "latitude": 43.6798, "longitude": -79.6284, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Buenos Aires", "date": "2024-11-29T15:07:36.244223", "latitude": 34.8165, "longitude": -58.5373, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Lima", "date": "2024-11-29T15:07:36.244226", "latitude": 12.0230, "longitude": -77.1080, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Rio de Janeiro", "date": "2024-11-29T15:07:36.244230", "latitude": 22.8053, "longitude": -43.2566, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Sao Paulo", "date": "2024-11-29T15:07:36.244233", "latitude": 23.4302, "longitude": -46.4717, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Moscow", "date": "2024-11-29T15:07:36.244236", "latitude": 55.9736, "longitude": 37.4125, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Stockholm", "date": "2024-11-29T15:07:36.244239", "latitude": 59.6494, "longitude": 17.9343, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Munich", "date": "2024-11-29T15:07:36.244243", "latitude": 48.3540, "longitude": 11.7884, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Bali", "date": "2024-11-29T15:07:36.244246", "latitude": 8.7470, "longitude": 115.1682, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}
+{"cityName": "Valencia", "date": "2024-11-29T15:07:36.244249", "latitude": 39.4884, "longitude": -0.4844, "temperature": 0, "windSpeed": 0, "precipitation": 0, "humidity": 0, "visibility": 0}

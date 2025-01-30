@@ -1,0 +1,48 @@
+.weather-update-container {
+    text-align: center; 
+}
+
+.weather-update-button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    border-radius: 20px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+.weather-update-button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+}
+
+.weather-update-button:active {
+    background-color: #3e8e41;
+    transform: scale(0.98); 
+}
+
+.weather-update-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .weather-box {
+        padding: 5px;
+    }
+
+    .weather-table-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .action-buttons-container {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

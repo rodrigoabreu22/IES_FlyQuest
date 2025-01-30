@@ -1,0 +1,7 @@
+target/
+.idea/
+.vscode/
+*.class
+.env
+.m2/
+src/main/resources/application.properties

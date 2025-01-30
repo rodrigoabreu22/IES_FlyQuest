@@ -1,0 +1,7 @@
+{
+    "Temperature": { "Min": -10, "Max": 40 },
+    "Wind": { "Min": -1, "Max": 30 },
+    "Precipitation": { "Min": -1, "Max": 10 },
+    "Humidity": { "Min": -1, "Max": 85 },
+    "Visibility": { "Min": -1, "Max": 20 }
+}

@@ -1,0 +1,13 @@
+.card-title {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 1.5rem; 
+    color: #333; 
+}
+
+.same-height-btn {
+    height: 40px; /* Ajuste para a altura desejada */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

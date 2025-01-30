@@ -1,0 +1,272 @@
+.flight-business {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background-color: #f4f6f8;
+    border: 10px solid #007bff;
+    height: 700px;
+    width: 610px;
+    animation: fadeIn 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:0px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.separator-business {
+    width: 100%;
+    height: 5px;
+    background-color: #007bff;
+    border-radius: 5px;
+    margin-bottom: -10px;
+}
+
+.tabs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.tabs {
+    flex: 1;
+    color: #fff;
+    text-align: center;
+}
+
+.arrow {
+    font-size: 28px;
+    color: #fff;
+}
+
+.tab-time {
+    flex: 1;
+    background-color: #444;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.flight-details {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: grid;
+    max-height: 270px;
+}
+
+.seat-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border-radius: 10px;
+}
+
+.seat-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.seat-icon i {
+    font-size: 24px;
+}
+
+.close-button {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 8px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.close-button:hover {
+    background-color: #0056b3;
+}
+
+.detail-item {
+    padding: 3px;
+    font-weight: normal; 
+    text-align: center;
+    color: #333; 
+}
+
+.seat-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.seat-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+.legend-image {
+    width: 40px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    min-height: auto; 
+    max-width: 100%; 
+    overflow: scroll; 
+
+}
+
+
+
+.gx-4 {
+    gap: 1rem; 
+}
+
+.gy-3 {
+    gap: 1rem; 
+}
+
+
+.flight-crew {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+}
+
+.row.gx-4 {
+    gap: 1rem; 
+}
+
+.row.gy-3 {
+    gap: 1rem; 
+}
+
+.text-black {
+    color: #000 !important; 
+}
+
+.crew-item {
+    flex: 1 1 calc(50% - 10px); 
+    box-sizing: border-box;
+    background-color: #f4f6f8; 
+    border-radius: 5px; 
+    text-align: left; 
+}
+
+@media (max-width: 1220px) {
+    .crew-item {
+        flex: 1 1 100%; 
+    }
+    .flight-crew {
+        overflow: scroll;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    .flight-business {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; 
+        overflow-y: auto; 
+    }
+
+    .flight-details {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px; 
+        overflow-x: auto; 
+        padding: 10px; 
+        background-color: #ffffff;
+        border-radius: 10px; 
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); 
+    }
+
+    .flight-details > div {
+        flex: 0 0 auto; 
+        min-width: 200px; 
+        text-align: center; 
+    }
+
+    .flight-crew {
+        flex-wrap: wrap; 
+        gap: 20px; 
+    }
+}
+
+
+.flight-seat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.seat-plan-Business,
+.flight-business {
+    flex: 1 1 48%; 
+    max-width: 48%; 
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+
+@media (max-width: 968px) {
+    .flight-seat-container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+
+    .seat-plan-Business,
+    .flight-Business {
+        flex: none; 
+        max-width: 100%; 
+        background-position: 51% 80%;
+    }
+
+    .seat-plan-Business {
+        padding: 10px; 
+        width: 610px;
+    }
+
+}

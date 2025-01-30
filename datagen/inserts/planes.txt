@@ -1,0 +1,7 @@
+{"businessSeats": 30, "economicSeats": 90}
+{"businessSeats": 30, "economicSeats": 90}
+{"businessSeats": 30, "economicSeats": 90}
+{"businessSeats": 30, "economicSeats": 90}
+{"businessSeats": 30, "economicSeats": 90}
+{"businessSeats": 30, "economicSeats": 90}
+{"businessSeats": 30, "economicSeats": 90}

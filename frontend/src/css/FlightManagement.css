@@ -1,0 +1,305 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #dc3545;
+    --text-color: #333;
+    --border-color: #2e7d32;
+    --hover-bg: #e0e0e0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --radius: 10px;
+    --bg-light: #ffffff;
+}
+
+.flight-management-container {
+    padding: 20px;
+    min-height: 100vh;
+    background-color: var(--bg-light);
+}
+
+.flight-management-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: var(--primary-color);
+    margin-right: 55%;
+}
+
+.flight-box {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    max-width: 1400px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Cards Gerais */
+.card {
+    border-radius: var(--radius);
+    background-color: #fff;
+}
+
+/* Flight Info (Lado Esquerdo) */
+.inner-box {
+    flex: 2;
+    border: 10px solid #3C554C;
+}
+
+.flight-number {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.flight-info {
+    border-radius: 15px;
+    height: 700px;
+    animation: fadeIn 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:0px;
+}
+
+.different-item {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 5px;
+}
+
+.info-item strong {
+    color: var(--primary-color);
+}
+
+.info-item i {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C554C;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    transition: background-color 0.3s;
+}
+
+.info-item i:hover {
+    background-color: #000;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.employees-box {
+    padding: 20px;
+}
+
+.employee-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    font-size: 1rem;
+}
+
+.status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.status.active {
+    background-color: #4caf50;
+}
+
+.status.inactive {
+    background-color: #f44336;
+}
+
+.weather-box {
+    padding: 20px;
+}
+
+.seat-title {
+    font-size: 1.9rem;
+    margin-top: 30px;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-right: 50px;
+}
+
+.seat-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+.seat-btn {
+    flex: 1;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.economy-btn {
+    border: 5px solid #ffc107;
+    color: #333;
+}
+
+.economy-btn:hover {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.business-btn {
+    border: 5px solid #007bff;
+    color: #333;
+}
+
+.business-btn:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.action-buttons-container {
+    width: 100%; 
+}
+
+.cancel-btn {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #dc3545;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cancel-btn:hover {
+    background-color: #a71d2a;
+    transform: scale(1.05); 
+}
+
+/* Modal */
+.custom-wide-modal .modal-dialog {
+    max-width: 90vw;
+    width: 90vw;
+}
+
+.custom-wide-modal .modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-wide-modal .modal-footer .btn-secondary {
+    width: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: #3C554C;
+    color: #fff;
+    font-weight: bold;
+}
+
+.seat-plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .flight-box {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .seat-buttons {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .cancel-btn {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 768px) {
+    .flight-box {
+        flex-direction: column;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .seat-buttons {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .cancel-btn {
+        width: 100%;
+    }
+
+    .action-buttons-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .custom-wide-modal .modal-dialog {
+        max-width: 100%;
+    }
+
+    .custom-wide-modal .modal-footer .btn-secondary {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .flight-box {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .seat-buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .flight-info {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    .cancel-btn {
+        padding: 8px;
+        font-size: 1rem;
+    }
+}
+

@@ -1,0 +1,43 @@
+.flight-crew-container {
+    background-color: #264a3e; 
+    color: white; 
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.flight-title {
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.crew-box {
+    background-color: white; 
+    color: black; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    pointer-events: none; 
+    cursor: not-allowed;
+}
+
+/* Button styling */
+.btn-secondary {
+    background-color: #cccccc;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}

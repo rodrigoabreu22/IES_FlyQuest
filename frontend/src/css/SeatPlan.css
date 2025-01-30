@@ -1,0 +1,120 @@
+/* SeatPlan.css */
+.seat-plan-Business {
+    position: relative;
+    background-color: hsl(208, 100%, 97%); 
+    padding: 20px;
+    border-radius: 10px;
+    background-image: url('media/UsarFInal.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 900px 800px; 
+    height: 700px;
+    max-width: 610px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 5px solid #007bff; 
+    background-position: 50% 85%;; 
+    background-repeat: no-repeat; 
+    background-attachment: local;
+    image-rendering: auto;
+}
+
+.seat-overlay {
+    margin-top: 30px;
+}
+
+.seat-Business {
+    width: 30px;
+    height: 90px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.seat-image-Business {
+    width: 50px; 
+    height: 60px; 
+    object-fit: contain;
+    margin-top: 10px;
+}
+
+
+.seat-Business:nth-child(4) {
+    margin-right: 30px;
+}
+
+.seat-legend-Business {
+    position: absolute;
+    bottom: 1px;
+    display: flex;
+    gap: 10px;
+    border: 5px solid #007bff;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.legend-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.info-box {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    font-size: 0.9rem;
+}
+
+.info-box .info-label {
+    font-weight: bold;
+    color: #495057; 
+}
+.text-black {
+    color: #000 !important;
+}
+.row-label {
+    width: 30px; 
+    text-align: center;
+    font-weight: bold;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; 
+    margin-left: 20px;
+}
+
+.column-label {
+    width: 28px; 
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 5px;
+    padding-left:6px;
+}
+
+.column-label:nth-child(4) {
+    margin-right: 25px;
+}
+
+.seat-overlay .row {
+    display: flex;
+    align-items: center; 
+    padding-right: 25px;
+}
+
+
+/*tamanho e font dos numeros*/
+.seat-overlay .row .row-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.column-label-wrapper {
+    display: flex;
+    justify-content: center;
+}
